@@ -5,6 +5,8 @@ filetype plugin indent on
 
 set background=dark
 colorscheme solarized
+set number
+set nocompatible
 
 let g:airline_powerline_fonts = 1
 if !exists('g:airline_symbols')
@@ -12,4 +14,4 @@ if !exists('g:airline_symbols')
 endif
 let g:airline_symbols.space = "\ua0"
 
-map <C-o> :NERDTreeToggle<CR>
+map <leader>o :NERDTreeToggle<CR>
