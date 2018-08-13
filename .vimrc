@@ -12,7 +12,7 @@ set mouse=a
 set updatetime=100
 
 " FZF Configuration
-set rtp+=/usr/local/opt/fzf
+" set rtp+=/usr/local/opt/fzf
 nnoremap <silent> <C-p> :FZF<CR>
 
 " Airline Configuration
