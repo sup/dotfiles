@@ -21,3 +21,8 @@ let g:NERDTreeMouseMode=3
 
 map <leader>o :NERDTreeToggle<CR>
 
+let g:ctrlp_max_files=0
+let g:ctrlp_max_depth=40
+
+
+
