@@ -30,8 +30,7 @@ autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 let NERDTreeAutoDeleteBuffer = 1
 let g:NERDTreeMouseMode=3
-let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
-map <leader>o :NERDTreeToggle<CR>
+map <leader>o :NERDTreeToggle<CR> :NERDTreeMirror<CR> 
 nnoremap <silent> <Leader>v :NERDTreeFind<CR>
 
