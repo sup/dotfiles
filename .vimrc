@@ -23,9 +23,6 @@ endif
 let g:airline_symbols.space = "\ua0"
 
 " NERDTree Configuration
-" Open NERDTree by default
-autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 " Autoclose tabs
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 let NERDTreeAutoDeleteBuffer = 1
