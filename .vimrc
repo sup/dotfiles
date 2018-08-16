@@ -11,6 +11,7 @@ set showtabline=2
 set mouse=a
 set updatetime=1000
 set incsearch 
+let mapleader = " "
 
 " FZF Configuration
 " set rtp+=/usr/local/opt/fzf
