@@ -11,6 +11,7 @@ alias gs='git status'
 alias gc='git commit'
 alias ga='git add'
 alias gl='git log'
+alias delete_merged='git branch --merged | egrep -v "(^\*|master|dev)" | xargs git branch -d'
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
