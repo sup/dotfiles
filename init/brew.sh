@@ -85,6 +85,7 @@ brew install lua
 brew install lynx
 brew install p7zip
 brew install pigz
+brew install pstree
 brew install pv
 brew install rename
 brew install rlwrap
