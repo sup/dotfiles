@@ -93,5 +93,17 @@ brew install tree
 brew install vbindiff
 brew install zopfli
 
+# Install cask apps
+brew cask install google-chrome
+brew cask install visual-studio-code
+brew cask install intellij-idea-ce
+brew cask install 1password
+brew cask install iterm2
+brew cask install spotify
+brew cask install vlc
+brew cask install notion
+brew cask install slack
+brew cask install postman
+
 # Remove outdated versions from the cellar.
 brew cleanup
