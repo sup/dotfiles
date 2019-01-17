@@ -3,3 +3,15 @@
 # Please adapt and uncomment the following lines:
 	name = Charles Lai
 	email = charlesjianlai@gmail.com
+[alias]
+    co = checkout
+    ci = commit
+    st = status -s
+    br = !git --no-pager branch
+    hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+    d = !git diff --name-status master@{u}...HEAD | gitrelpath ${GIT_PREFIX:-./}
+    dd = diff master@{u}...HEAD
+    tip = rev-parse HEAD
+    branchlog = git log HEAD --not master --no-merges
+    prom = "!git fetch origin master && git rebase origin/master && git update-ref refs/heads/master origin/master"
+    punch = push --force-with-lease
