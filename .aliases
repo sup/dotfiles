@@ -158,3 +158,6 @@ alias path='echo -e ${PATH//:/\\n}'
 
 # Fix tmux ssh
 alias fixssh='export $(tmux show-environment | grep \^SSH_AUTH_SOCK=)'
+
+# pls
+alias please='sudo'
