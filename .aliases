@@ -11,6 +11,7 @@ alias gs='git status'
 alias gc='git commit'
 alias ga='git add'
 alias gl='git log'
+alias gpr='git pull -r origin master'
 alias delete-merged='git branch --merged | egrep -v "(^\*|master|dev)" | xargs git branch -d'
 alias update-master='git fetch origin master:master'
 
