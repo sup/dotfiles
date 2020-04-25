@@ -76,7 +76,6 @@ brew install woff2
 
 # Install other useful binaries.
 brew install ack
-#brew install exiv2
 brew install git
 brew install git-lfs
 brew install imagemagick --with-webp
@@ -92,6 +91,10 @@ brew install ssh-copy-id
 brew install tree
 brew install vbindiff
 brew install zopfli
+brew install ag
+brew install fzf
+brew install wget
+
 
 # Install cask apps
 brew cask install google-chrome
