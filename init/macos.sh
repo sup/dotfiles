@@ -19,6 +19,8 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 # in the login window
 sudo defaults write /Library/Preferences/com.apple.loginwindow AdminHostInfo HostName
 
+# Show bluetooth icon in menubar
+open '/System/Library/CoreServices/Menu Extras/Bluetooth.menu'
 
 ###############################################################################
 # Screen                                                                      #
