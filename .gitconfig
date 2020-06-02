@@ -15,3 +15,7 @@
     branchlog = git log HEAD --not master --no-merges
     prom = "!git fetch origin master && git rebase origin/master && git update-ref refs/heads/master origin/master"
     punch = push --force-with-lease
+[core]
+    pager = delta --theme='Solarized (dark)'
+[interactive]
+    diffFilter = delta --color-only
