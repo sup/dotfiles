@@ -110,6 +110,7 @@ brew cask install vlc
 brew cask install notion
 brew cask install slack
 brew cask install postman
+brew install docker
 
 # Remove outdated versions from the cellar.
 brew cleanup
