@@ -97,6 +97,7 @@ brew install fzf
 brew install wget
 brew install bat
 brew install htop
+brew install tmux
 
 
 # Install cask apps
