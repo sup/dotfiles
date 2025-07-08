@@ -22,6 +22,9 @@ sudo defaults write /Library/Preferences/com.apple.loginwindow AdminHostInfo Hos
 # Show bluetooth icon in menubar
 open '/System/Library/CoreServices/Menu Extras/Bluetooth.menu'
 
+# Key repetition
+sudo defaults write -g ApplePressAndHoldEnabled -bool false
+
 ###############################################################################
 # Screen                                                                      #
 ###############################################################################
